@@ -1,0 +1,20 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "tarefa-Controllers",
+      "appliesTo": "WebCRUDTESTE/Controllers/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "tarefa-Controllers",
+      "appliesTo": "WebCRUDTESTE/Controllers/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "tarefa-Controllers",
+      "appliesTo": "WebCRUDTESTE/Controllers/",
+      "type": "launch"
+    }
+  ]
+}

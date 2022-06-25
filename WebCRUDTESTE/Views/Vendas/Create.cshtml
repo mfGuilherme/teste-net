@@ -1,0 +1,51 @@
+﻿@model WebCRUDTESTE.Models.Vendas
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Vendas</h4>
+<hr />
+<div class="d-flex flex-row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ClienteId" class="control-label"></label>
+                <input asp-for="ClienteId" class="form-control" />
+                <span asp-validation-for="ClienteId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ProdutoId" class="control-label"></label>
+                <input asp-for="ProdutoId" class="form-control" />
+                <span asp-validation-for="ProdutoId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="qtdVenda" class="control-label"></label>
+                <input asp-for="qtdVenda" class="form-control" />
+                <span asp-validation-for="qtdVenda" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="VlrUnitarioVenda" class="control-label"></label>
+                <input asp-for="VlrUnitarioVenda" class="form-control" />
+                <span asp-validation-for="VlrUnitarioVenda" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="vlrTotalVenda" class="control-label"></label>
+                <input asp-for="vlrTotalVenda" class="form-control" />
+                <span asp-validation-for="vlrTotalVenda" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

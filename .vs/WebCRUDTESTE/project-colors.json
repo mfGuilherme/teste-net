@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Arquivos Diversos",
+      "ColorIndex": -1
+    },
+    "e0d87a45-7374-4d0f-a493-6f6734f5d91d": {
+      "ProjectGuid": "e0d87a45-7374-4d0f-a493-6f6734f5d91d",
+      "DisplayName": "WebCRUDTESTE",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
